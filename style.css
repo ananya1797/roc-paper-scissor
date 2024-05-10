@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a7c957;
+}
+
+nav{
+    background-color: black;
+    height: 20vh;
+    color: white;
+    font-size: 2.8rem;
+    text-shadow: 2px 2px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.op{
+    height: 150px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border-radius: 90px;
+    margin-top: 50px;
+
+}
+#id1{
+    background-image: url('rockk.png');
+    background-size: cover;
+    
+}
+#id2{
+    background-image: url('paper.png');
+    background-size: cover;
+    
+}
+#id3{
+    background-image: url('sc.jpg');
+    background-size: cover;
+}
+h3{
+    opacity: 0%;
+}
+.replay{
+    color: white;
+    background-color: darkgreen;
+    border: 2px solid rgb(4, 54, 4);
+    height: 40px;
+    width: 120px;
+    align-self: center;
+    box-shadow: 2px 2px 0 yellowgreen;
+    margin-left: 578px;
+    margin-top: 60px;
+    
+}
+p{
+    margin-top: 10px;
+    color:#eae2b7;
+    font-size: 20px;
+    font-weight: bold;
+}
+.b1, .b2, .b3{
+    text-align: center;
+}
